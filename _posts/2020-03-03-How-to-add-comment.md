@@ -2,6 +2,9 @@
 title:  "GitHub Pages 블로그에 댓글 기능 넣기"
 excerpt: "댓글 기능을 추가하는 방법을 설명합니다."
 
+toc: true
+toc_sticky: true
+
 categories:
   - Blog
 tags:

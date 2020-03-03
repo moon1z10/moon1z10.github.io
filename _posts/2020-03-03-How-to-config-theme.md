@@ -2,6 +2,9 @@
 title:  "GitHub Pages 테마 환경설정"
 excerpt: "테마 적용시 기본 환경 설정에 대하여 공유합니다."
 
+toc: true
+toc_sticky: true
+
 categories:
   - Blog
 tags:

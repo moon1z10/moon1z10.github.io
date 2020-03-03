@@ -2,6 +2,9 @@
 title:  "GitHub Pages 카테고리, 태그 설정"
 excerpt: "카테고리와 태그를 설정하고 메뉴에 추가하는 방법을 설명합니다."
 
+toc: true
+toc_sticky: true
+
 categories:
   - Blog
 tags:
