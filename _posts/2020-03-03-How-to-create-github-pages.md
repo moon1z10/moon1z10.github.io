@@ -70,7 +70,7 @@ $
 
 포스트 글이 저장소에 push 되면 GitHub Pages에서 자동으로 이를 인식하여 업데이트가 있음을 알아차리고 Jekyll engine을 사용하여 html로 변환하는 작업을 자동으로 수행한다. 포스트 글이 업데이트 되는데 길게는 1~2분 정도가 소요될 수 있으므로 기다렸다가 새로고침 해보자.
 
-![](/assets/images/posts/How-to-create-github-pagesimages/5.png)
+![](/assets/images/posts/How-to-create-github-pages/5.png)
 
 > 정상적으로 블로그가 접속되는지 확인하기
 
