@@ -11,7 +11,7 @@
 
 Minimal-Mistakes Github 저장소로 이동해서 Download Zip을 통해 최신 버전을 다운로드 받는다.
 
-![](./images/1.png)
+![](/assets/images/posts/How-to-create-github-pages/1.png)
 
 > Download Zip
 
@@ -23,11 +23,11 @@ Minimal-Mistakes Github 저장소로 이동해서 Download Zip을 통해 최신 
 
 Github에서 저장소를 만들자.
 
-![](./images/2.png)
+![](/assets/images/posts/How-to-create-github-pages/2.png)
 
 > New repository
 
-![](./images/3.png)
+![](/assets/images/posts/How-to-create-github-pages/3.png)
 
 Repository name에는 username.github.io의 형식으로 저장소를 만들어준다.
 그리고 나머지는 딱히 손댈것 없이 Create repository 녹색 버튼을 누르자.
@@ -60,7 +60,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 $ 
 ```
 
-![](./images/4.png)
+![](/assets/images/posts/How-to-create-github-pages/4.png)
 
 > 정상적으로 push되었다면, 테마 파일들이 모두 commit 되어 적용된 모습을 확인할 수 있다.
 
@@ -70,7 +70,7 @@ $
 
 포스트 글이 저장소에 push 되면 GitHub Pages에서 자동으로 이를 인식하여 업데이트가 있음을 알아차리고 Jekyll engine을 사용하여 html로 변환하는 작업을 자동으로 수행한다. 포스트 글이 업데이트 되는데 길게는 1~2분 정도가 소요될 수 있으므로 기다렸다가 새로고침 해보자.
 
-![](./images/images/5.png)
+![](/assets/images/posts/How-to-create-github-pagesimages/5.png)
 
 > 정상적으로 블로그가 접속되는지 확인하기
 
@@ -78,4 +78,4 @@ $
 
 불필요한 파일들은 삭제하자.
 
-![](./images/images/6.png)
+![](/assets/images/posts/How-to-create-github-pages/6.png)
