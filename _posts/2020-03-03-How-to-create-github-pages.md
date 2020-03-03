@@ -17,10 +17,12 @@ last_modified_at: 2020-03-03T14:37:00-00:00
 
 # 저장소 만들기 & 테마 적용하기
 
+
 # 1. 테마 적용
+
 ## a. 테마 다운로드하기
 
-Minimal-Mistakes Github 저장소로 이동해서 Download Zip을 통해 최신 버전을 다운로드 받는다.
+[Minimal-Mistakes Github](https://github.com/mmistakes/minimal-mistakes) 저장소로 이동해서 Download Zip을 통해 최신 버전을 다운로드 받는다.
 
 ![](/assets/images/posts/How-to-create-github-pages/1.png)
 
