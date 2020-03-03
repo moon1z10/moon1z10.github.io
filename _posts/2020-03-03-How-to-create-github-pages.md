@@ -1,3 +1,14 @@
+---
+title:  "GitHub Pages 생성, 테마 적용 따라하기"
+excerpt: "GitHub을 블로그로 사용하기 위해 저장소를 생성하고, 테마를 적용하는 가장 쉬운 방법을 요약해본다."
+
+categories:
+  - Blog
+tags:
+  - GitHub
+last_modified_at: 2020-03-03T14:37:00-00:00
+---
+
 ### Features
 
 - gem을 쓰고 싶지도, 뭔가를 막 어렵게 커맨드 입력하기도 귀찮다.
