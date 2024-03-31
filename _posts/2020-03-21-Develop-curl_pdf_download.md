@@ -9,7 +9,8 @@ toc_label : "페이지 목차"
 categories:
   - Development
 tags:
-  - Linux, curl
+  - Linux
+  - curl
 last_modified_at: 2020-03-21T13:42:00-00:00
 ---
 ------------
