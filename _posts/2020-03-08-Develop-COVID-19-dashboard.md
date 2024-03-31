@@ -9,7 +9,8 @@ toc_label : "페이지 목차"
 categories:
   - Development
 tags:
-  - COVID-19, RaspberryPi
+  - COVID-19
+  - RaspberryPi
 last_modified_at: 2020-03-08T12:00:00-00:00
 ---
 ------------
