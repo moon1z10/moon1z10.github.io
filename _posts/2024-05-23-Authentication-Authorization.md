@@ -89,7 +89,7 @@ last_modified_at: 2024-05-23T10:00:00-00:00
 
 > 즉, 여러분의 인증 정보(SESSION)는 서버가 담당한다는 소리입니다.
 
-아래는 유튜브(코딩애플)에서 매우 간단히 잘 설명한 내용을 캡처했다. (이해가 매우 쉽다.)
+아래는 유튜브(코딩애플)에서 매우 간단히 잘 설명한 내용을 캡처했습니다. (이해가 매우 쉽다.)
 
 ![session process 1](/assets/images/posts/backend-communication-pattern/1.png)
 
@@ -103,9 +103,9 @@ last_modified_at: 2024-05-23T10:00:00-00:00
 
 > 만약 SESSION ID를 쿠키에 저장하고, 공격자에 의해 SESSION ID가 탈취 당한다면?
 
-보통 이럴 때는 다양한 보호 메커니즘을 도입할 수 있겠지만, 가장 쉬운 것은 SESSION에 유효 시간을 부여하는 방법이다. SESSION에 유효시간이 지나면 새로운 서버는 SESSION ID를 발급 하므로, 공격자는 기존 SESSION ID로는 더이상 서비스를 이용할 수 없다.
+보통 이럴 때는 다양한 보호 메커니즘을 도입할 수 있겠지만, 가장 쉬운 것은 SESSION에 유효 시간을 부여하는 방법이다. SESSION에 유효시간이 지나면  서버는 새로운 SESSION ID를 발급 하므로, 공격자는 기존 SESSION ID로는 더이상 서비스를 이용할 수 없다.
 
-### 세션이 한계 (Limitation)
+### 세션의 한계 (Limitation)
 
 처음에는 세션이 매우 잘 동작했을 것이다. 물론 지금도 그렇다.
 
@@ -133,12 +133,14 @@ last_modified_at: 2024-05-23T10:00:00-00:00
 
 JWT와 세션의 가장 큰 차이점은
 
-- 인증 정보(회원증 또는 티켓이라고 생각하면)를 누가 가지고 있나?
+- 인증 정보(회원증 또는 티켓이라고 생각하면)를 누가 가지고 있으며 처리하나?
   - 세션 : 서버가 가지고 있어서 매번 SESSION STORE에서 SESSION ID의 유효성을 찾아 검사한다.
   - JWT : 사용자가 전달한 인증 정보(JSON WEB TOKEN)룰 서버는 가지고 있지 않는다. 즉, 사용자가 전달한 내용만 확인하고 유효하면 서비스를 제공하면 된다.
 
 ![jwt](/assets/images/posts/backend-communication-pattern/4.png)
-_인증 서버는 전달받은 토큰의 내용만 훑어볼 뿐이다._
+_JWT에서 인증 서버는 전달받은 토큰의 내용만 훑어볼 뿐이다._
+
+그렇기 때문에 세션보다 JWT가 훨씬 빠르고 가벼운 것이다.
 
 ### JWT 구조 (Header, Payload, Signature)
 
@@ -173,12 +175,12 @@ JWT의 두번째 부분은 Payload이다. 페이로드의 속을을 클래임 �
 
 ![](https://i0.wp.com/bespin-wordpress-bucket.s3.ap-northeast-2.amazonaws.com/wp-content/uploads/2022/06/%EA%B7%B8%EB%A6%BC21.png?resize=903%2C693&ssl=1)
 
-[출처] : https://blog.bespinglobal.com/post/server-%ec%84%9c%eb%b2%84-%ec%9d%b8%ec%a6%9d-%ec%9d%b4%ed%95%b4%ed%95%98%ea%b8%b0-4%eb%b6%80-oauth-%ed%99%95%ec%9e%a5%ed%8e%b8/
+[출처] : [https://blog.bespinglobal.com/post/server-서버-인증-이해하기-4부-oauth-확장편/](https://blog.bespinglobal.com/post/server-%ec%84%9c%eb%b2%84-%ec%9d%b8%ec%a6%9d-%ec%9d%b4%ed%95%b4%ed%95%98%ea%b8%b0-4%eb%b6%80-oauth-%ed%99%95%ec%9e%a5%ed%8e%b8/)
 
 이와 같은 특징 때문에 JWT는 엄청나게 많이 쓰이고 있다.
 
 ### 취약점
 
-하지만 JWT는 만능이 아니다. JWT도 취약점이 있으며, 때로는 개발자가 자기도 모른사이에 취약점을 수정하지 않고 서비스를 제공할 수도 있다.
+항상 그렇듯이, 그 어떠한 것도 완벽하지 않다. JWT도 만능이 아니다. JWT도 취약점이 있으며, 때로는 개발자가 자기도 모른사이에 취약점을 수정하지 않고 서비스를 제공할 수도 있다.
 
 다음 포스팅에서는 JWT의 취약점과 이를 해결할 수 있는 방법들은 소개하려 한다.
