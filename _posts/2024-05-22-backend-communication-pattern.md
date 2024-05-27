@@ -24,6 +24,8 @@ HTTP, TCP/UDP, IP와 운영체제, 스케쥴링에 대한 이해도가 있으면
 
 빠르게 구현하기 위해 먼저 Node.js를 기반으로 프로그램을 개발하였습니다.
 
+> 샘플 프로젝트 링크 [Github](https://github.com/moon1z10/Backend-Engineering)
+
 ## 푸쉬 (Push)
 
 일반적으로 서버가 클라이언트에게 데이터를 푸쉬(push)하는 방식으로, 주로 WebSocket이나 서버 센트 이벤트(Server-Sent Events, SSE)를 사용하여 구현할 수 있습니다.
