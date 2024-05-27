@@ -157,7 +157,7 @@ Header는 JWT인 토큰 유형과 HMAC SHA256 또는 RSA와 같이 사용중인 
 
 #### Payload
 
-JWT의 두번째 부분은 Payload이다. 페이로드의 속을을 클래임 셋(Claim Set)이라고 부른다. 클레임은 사용자 추가 데이터에 대한 설명이다.
+JWT의 두번째 부분은 Payload이다. 페이로드의 속을 클래임 셋(Claim Set)이라고 부른다. 클레임은 사용자 추가 데이터에 대한 설명이다.
 
 페이로드는 Base64Url로 인코딩되어 JSON의 두 번째 부분을 형성한다.
 
