@@ -17,6 +17,9 @@ last_modified_at: 2024-06-01T10:00:00-00:00
 ------------
 
 기술 면접때, 퀵 정렬에 대하여 물어보았을 때, 제대로 기억이 나지 않아 헛소리 한 경험이 있어, 리마인드 차원에서 요약하려고 한다.
+
+Pivot 위치(Left, Right, Middle)에 따른 구현은 (github)[https://github.com/moon1z10/Algorithms/blob/master/Sort/Quick%20Sort/src/QuickSort.java] 참고
+
 ---
 
 퀵 정렬(Quick Sort)은 정렬 알고리즘 중 하나로, 평균적으로 매우 빠르고 효율적인 성능을 보여주는 알고리즘입니다.
